@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "app",
-  "name": "Bundledui",
-  "id": "grafana-bundledui-app",
+  "name": "Grafana Bundled UI",
+  "id": "myorg-bundledui-app",
   "info": {
     "keywords": ["app"],
     "description": "A yarn berry plugin for testing bundling grafana ui",
     "author": {
-      "name": "Grafana"
+      "name": "Your name"
     },
     "logos": {
       "small": "img/logo.svg",

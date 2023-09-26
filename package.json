@@ -1,5 +1,5 @@
 {
-  "name": "bundledui",
+  "name": "myorg-bundledui-app",
   "version": "1.0.0",
   "description": "A yarn berry plugin for testing bundling grafana ui",
   "scripts": {
