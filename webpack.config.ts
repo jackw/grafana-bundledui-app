@@ -13,7 +13,15 @@ const config = async (env): Promise<Configuration> => {
       externals: 'replace',
     }),
   })(baseConfig, {
-    externals: [...externals, 'react-inlinesvg', 'i18next'],
+    externals: [
+      ...externals,
+      'react-inlinesvg',
+      'i18next',
+      /^react-select.*/i,
+      (blah, done) => {
+        done();
+      },
+    ],
   } as Configuration);
 };
 
