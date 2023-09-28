@@ -3,7 +3,7 @@ import { lastValueFrom } from 'rxjs';
 import { css } from '@emotion/css';
 import { AppPluginMeta, GrafanaTheme2, PluginConfigPageProps, PluginMeta } from '@grafana/data';
 import { getBackendSrv } from '@grafana/runtime';
-import { Button, Field, FieldSet, Input, SecretInput, useStyles2 } from '@grafana/ui';
+import { Button, Field, FieldSet, Input, SecretInput, TimeZonePicker, useStyles2 } from '@grafana/ui';
 import { testIds } from '../testIds';
 
 export type AppPluginSettings = {
@@ -70,6 +70,8 @@ export const AppConfig = ({ plugin }: AppConfigProps) => {
             onChange={onChange}
           />
         </Field>
+
+        <TimeZonePicker onChange={(timeZone) => console.log(timeZone)} />
 
         <div className={s.marginTop}>
           <Button
