@@ -135,7 +135,7 @@ export function PageFour() {
     Spinner,
     StackingMode,
     styleMixins,
-    Switch as GrafanaSwitch,
+    GrafanaSwitch,
     Tab,
     TabContent,
     TabsBar,
@@ -159,6 +159,8 @@ export function PageFour() {
     <PluginPage layout={PageLayoutType.Canvas}>
       <div className={s.page} data-testid={testIds.pageFour.container}>
         <div className={s.container}>
+          <Icon name="anchor" />
+          <Icon name="copy" />
           <LinkButton data-testid={testIds.pageFour.navigateBack} icon="arrow-left" href={prefixRoute(ROUTES.One)}>
             Back
           </LinkButton>
