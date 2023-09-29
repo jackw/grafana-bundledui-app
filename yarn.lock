@@ -712,9 +712,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@grafana/data@portal:/Users/jackwestbrook/dev/grafana/grafana/packages/grafana-data::locator=myorg-bundledui-app%40workspace%3A.":
+"@grafana/data@portal:/Users/marcusandersson/Development/grafana/grafana/packages/grafana-data::locator=myorg-bundledui-app%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@grafana/data@portal:/Users/jackwestbrook/dev/grafana/grafana/packages/grafana-data::locator=myorg-bundledui-app%40workspace%3A."
+  resolution: "@grafana/data@portal:/Users/marcusandersson/Development/grafana/grafana/packages/grafana-data::locator=myorg-bundledui-app%40workspace%3A."
   dependencies:
     "@braintree/sanitize-url": 6.0.2
     "@grafana/schema": 10.2.0-pre
@@ -739,7 +739,7 @@ __metadata:
     string-hash: ^1.1.3
     tinycolor2: 1.6.0
     tslib: 2.6.0
-    uplot: 1.6.24
+    uplot: 1.6.26
     xss: ^1.0.14
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
@@ -774,7 +774,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@grafana/faro-core@npm:^1.1.2":
+"@grafana/faro-core@npm:^1.2.1":
   version: 1.2.1
   resolution: "@grafana/faro-core@npm:1.2.1"
   dependencies:
@@ -786,30 +786,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@grafana/faro-web-sdk@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@grafana/faro-web-sdk@npm:1.1.2"
+"@grafana/faro-web-sdk@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@grafana/faro-web-sdk@npm:1.2.1"
   dependencies:
-    "@grafana/faro-core": ^1.1.2
+    "@grafana/faro-core": ^1.2.1
     ua-parser-js: ^1.0.32
     web-vitals: ^3.1.1
-  checksum: 7a2086c946a388590eb73d2d02f5e011db7cbeb9120ba67eab40b9824848cff99764bf76ea5cd168c749d4e0e3682aa79c89a4e84b1f0947326dbbdf1fd1d937
+  checksum: bc91b2a282dbcb66c5530c5b915de4166a9bd51d58914cbfadd64201f95c757d71a36ebf65f4a73dedde506d68201baa522e3fbe63af2fbc8beb5305da68dcbd
   languageName: node
   linkType: hard
 
-"@grafana/runtime@portal:/Users/jackwestbrook/dev/grafana/grafana/packages/grafana-runtime::locator=myorg-bundledui-app%40workspace%3A.":
+"@grafana/runtime@portal:/Users/marcusandersson/Development/grafana/grafana/packages/grafana-runtime::locator=myorg-bundledui-app%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@grafana/runtime@portal:/Users/jackwestbrook/dev/grafana/grafana/packages/grafana-runtime::locator=myorg-bundledui-app%40workspace%3A."
+  resolution: "@grafana/runtime@portal:/Users/marcusandersson/Development/grafana/grafana/packages/grafana-runtime::locator=myorg-bundledui-app%40workspace%3A."
   dependencies:
     "@grafana/data": 10.2.0-pre
     "@grafana/e2e-selectors": 10.2.0-pre
-    "@grafana/faro-web-sdk": 1.1.2
+    "@grafana/faro-web-sdk": 1.2.1
     "@grafana/ui": 10.2.0-pre
     history: 4.10.1
     lodash: 4.17.21
     rxjs: 7.8.1
     systemjs: 6.14.2
-    systemjs-cjs-extra: 0.1.1
+    systemjs-cjs-extra: 0.2.0
     tslib: 2.6.0
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
@@ -833,15 +833,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@grafana/ui@portal:/Users/jackwestbrook/dev/grafana/grafana/packages/grafana-ui::locator=myorg-bundledui-app%40workspace%3A.":
+"@grafana/ui@portal:/Users/marcusandersson/Development/grafana/grafana/packages/grafana-ui::locator=myorg-bundledui-app%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@grafana/ui@portal:/Users/jackwestbrook/dev/grafana/grafana/packages/grafana-ui::locator=myorg-bundledui-app%40workspace%3A."
+  resolution: "@grafana/ui@portal:/Users/marcusandersson/Development/grafana/grafana/packages/grafana-ui::locator=myorg-bundledui-app%40workspace%3A."
   dependencies:
     "@emotion/css": 11.11.2
     "@emotion/react": 11.11.1
     "@grafana/data": 10.2.0-pre
     "@grafana/e2e-selectors": 10.2.0-pre
-    "@grafana/faro-web-sdk": 1.1.2
+    "@grafana/faro-web-sdk": 1.2.1
     "@grafana/schema": 10.2.0-pre
     "@leeoniya/ufuzzy": 1.0.8
     "@monaco-editor/react": 4.5.1
@@ -901,7 +901,7 @@ __metadata:
     slate-react: 0.22.10
     tinycolor2: 1.6.0
     tslib: 2.6.0
-    uplot: 1.6.24
+    uplot: 1.6.26
     uuid: 9.0.0
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
@@ -10377,10 +10377,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"systemjs-cjs-extra@npm:0.1.1":
-  version: 0.1.1
-  resolution: "systemjs-cjs-extra@npm:0.1.1"
-  checksum: 5b2880a5ec95b995ab3e1396c8c7fb2e089ad768a4843e915ff97e75bd255ef8d1f9cd79869eb1b42d9ee7bdd64d9f8d0385d25d82992d5c11e8cacc3b896417
+"systemjs-cjs-extra@npm:0.2.0":
+  version: 0.2.0
+  resolution: "systemjs-cjs-extra@npm:0.2.0"
+  checksum: c00ea3dba63cbfb6629543cdd4fe5bcf61501cf395d08ca49b622de07fdd5a2c9a4c2c6c3a84ab73648e2da5cc690bdbdf7d5701868b654816ee8df28bd5a891
   languageName: node
   linkType: hard
 
@@ -10848,10 +10848,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uplot@npm:1.6.24":
-  version: 1.6.24
-  resolution: "uplot@npm:1.6.24"
-  checksum: 253e389dc6db40e1231d1c63913dea1e6987856cfde985da036e70786ef0077afc40f3ed6883c54d95a97ecedc3ea52a7fa815e88f3c3d381b61c15e745f8a40
+"uplot@npm:1.6.26":
+  version: 1.6.26
+  resolution: "uplot@npm:1.6.26"
+  checksum: 873b5b049b0b2e00534e4a02bfcab7df6972099a2cedec0cd8b1ba949b318628a7d59b988e0f45fd3f8ed4eb6cc5a84d59f83a15b702c21f7396c664dc41a124
   languageName: node
   linkType: hard
 
