@@ -17,9 +17,6 @@ const config = async (env): Promise<Configuration> => {
       ...externals,
       'react-inlinesvg',
       'i18next',
-      /^react-select.*/i,
-      'uplot',
-      'react-table',
       (blah, done) => {
         done();
       },
