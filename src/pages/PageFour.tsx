@@ -1,4 +1,3 @@
-//@ts-nocheck
 import React from 'react';
 import { css } from '@emotion/css';
 import { GrafanaTheme2, PageLayoutType } from '@grafana/data';
@@ -9,22 +8,15 @@ import { PluginPage } from '@grafana/runtime';
 
 import {
   Alert,
-  AlertVariant,
   Badge,
-  BadgeColor,
   LinkButton,
-  BadgeProps,
   Button,
-  ButtonVariant,
-  ButtonProps,
   Card,
-  CardProps,
   Checkbox,
   ClipboardButton,
   CodeEditor,
   Collapse,
   ConfirmModal,
-  CustomControlProps,
   CustomScrollbar,
   DateTimePicker,
   DatePickerWithInput,
@@ -33,13 +25,9 @@ import {
   Field,
   FieldSet,
   FileDropzone,
-  GraphFieldConfig,
   HorizontalGroup,
   Icon,
   IconButton,
-  IconButtonVariant,
-  IconName,
-  IconSize,
   InlineField,
   InlineFieldRow,
   InlineFormLabel,
@@ -51,21 +39,12 @@ import {
   LoadingPlaceholder,
   Menu,
   Modal,
-  ModalProps,
-  monacoTypes,
   MultiSelect,
-  MultiSelectCommonProps,
-  OptionsWithLegend,
-  OptionsWithTooltip,
-  OptionsWithTextFormatting,
   Pagination,
   PanelChrome,
-  PanelContext,
   PanelContextProvider,
   RadioButtonList,
   Select,
-  SelectableOptGroup,
-  SelectCommonProps,
   SelectContainer,
   SeriesVisibilityChangeMode,
   Spinner,
@@ -85,11 +64,12 @@ import {
   useStyles2,
   useTheme2,
   VerticalGroup,
+  ReactMonacoEditor,
 } from '@grafana/ui';
 
 export function PageFour() {
   const s = useStyles2(getStyles);
-  const theme = useTheme2();
+  //const theme = useTheme2();
 
   const components = [
     Alert,
@@ -152,7 +132,7 @@ export function PageFour() {
   ];
 
   for (const c of components) {
-    console.log(c);
+    String(c);
   }
 
   return (
@@ -161,6 +141,7 @@ export function PageFour() {
         <div className={s.container}>
           <Icon name="anchor" />
           <Icon name="copy" />
+          <ReactMonacoEditor value={''} language="json" />
           <LinkButton data-testid={testIds.pageFour.navigateBack} icon="arrow-left" href={prefixRoute(ROUTES.One)}>
             Back
           </LinkButton>
